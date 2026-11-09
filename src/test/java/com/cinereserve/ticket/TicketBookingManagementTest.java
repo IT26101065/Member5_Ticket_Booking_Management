@@ -16,7 +16,6 @@ public class TicketBookingManagementTest {
     void setUp() {
         bookingService = new BookingService();
     }
-
     @Test
     void testStandardTicketPolymorphism() {
         Ticket std = new StandardTicket("T1", "B1", "D4", 10.0);
